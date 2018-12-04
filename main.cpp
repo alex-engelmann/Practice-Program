@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int main() {
     
@@ -18,7 +19,9 @@ int main() {
     //Give the user the area and perimeter
 
     cout << "The area of your rectangle is: " << (l*w) << endl;
-    cout << "The perimeter of your rectangle is " << (2*l + 2 * w) << endl;
+    cout << "The perimeter of your rectangle is: " << (2*l + 2*w) << endl;
+    float h = sqrt(l*l + w*w) ;
+    cout << "The length of its diagonal is: " << h << endl;
 
 
     //Leave this at the end always
