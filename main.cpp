@@ -4,23 +4,21 @@ int main() {
     
     
     using namespace std;
+
+    //Get the dimensions of the rectangle from the user
     
-    
-    cout << "Please enter a character: " << endl;
-    char ch = 'b';
+    cout << "Please enter rectangle length: " << endl;
+    int l  = 0;
+    cin >> l;
 
-    
-    cin >> ch;
+    cout << "Please enter rectangle width: " << endl;
+    int w = 0;
+    cin >> w;
 
-    cout << "This was your character: " << endl;
-    cout << ch << endl;
-    cout << "This was the ASCII value of your character: " <<endl;
-    cout << int(ch) << endl;
-    
-   
+    //Give the user the area and perimeter
 
-
-
+    cout << "The area of your rectangle is: " << (l*w) << endl;
+    cout << "The perimeter of your rectangle is " << (2*l + 2 * w) << endl;
 
 
     //Leave this at the end always
